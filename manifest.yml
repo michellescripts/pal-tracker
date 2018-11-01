@@ -2,6 +2,7 @@
 applications:
 - name: mb-pal-tracker
   path: build/libs/pal-tracker.jar
-  random-route: true
+  routes:
+  - route: pal-tracker-mb.cfapps.io
   env:
-    WELCOME_MESSAGE: Hello from Cloud Foundry
+    WELCOME_MESSAGE: Hello from the review environment
